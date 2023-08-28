@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback sobre a Nossa Extensão</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      max-width: 600px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+    .title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .question {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+      min-height: 100px;
+    }
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Feedback sobre a Nossa Extensão</h1>
+    <p class="question">Obrigado por ter utilizado a nossa extensão. Lamentamos que você tenha decidido desinstalá-la. Se você tiver um momento, gostaríamos de saber mais sobre o motivo da sua decisão. Isso nos ajudará a melhorar a nossa extensão e fornecer uma experiência mais satisfatória para nossos usuários.</p>
+    <p class="question">Algumas perguntas que podem nos ajudar a entender o motivo da sua desinstalação são:</p>
+    <form>
+      <label class="question">A extensão não atendeu às suas expectativas?</label><br>
+      <input type="radio" name="expectations" value="sim"> Sim
+      <input type="radio" name="expectations" value="nao"> Não<br><br>
+
+      <label class="question">Você encontrou algum problema ao usar a extensão?</label><br>
+      <input type="radio" name="problems" value="sim"> Sim
+      <input type="radio" name="problems" value="nao"> Não<br><br>
+
+      <label class="question">A extensão não funcionou corretamente em seu navegador?</label><br>
+      <input type="radio" name="functionality" value="sim"> Sim
+      <input type="radio" name="functionality" value="nao"> Não<br><br>
+
+      <label class="question">Você não precisou mais da funcionalidade oferecida pela extensão?</label><br>
+      <input type="radio" name="relevance" value="sim"> Sim
+      <input type="radio" name="relevance" value="nao"> Não<br><br>
+
+      <label class="question">A extensão causou algum impacto negativo na velocidade ou na estabilidade do seu navegador?</label><br>
+      <input type="radio" name="impact" value="sim"> Sim
+      <input type="radio" name="impact" value="nao"> Não<br><br>
+
+      <label class="question">Comentários adicionais:</label><br>
+      <textarea name="comments"></textarea><br><br>
+
+      <button type="submit">Enviar Feedback</button>
+    </form>
+  </div>
+</body>
+</html>
