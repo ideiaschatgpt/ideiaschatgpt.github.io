@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Bootstrap</title>
+
+    <!-- Adicione os links para o Bootstrap CSS e jQuery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <style>
+        /* CSS personalizado para centralizar verticalmente */
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>Promoção Imperdível Até o Dia <div id="descounttime"></div></p>
+    </div>
+    
+    <script language="javascript">
+    var getdayNames = new Array("Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira","Quinta-Feira", "Sexta-Feira", "Sábado");
+    var getdayMonth = new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho","Agosto", "Setembro", "Outubro", "Novembro", "Dezembro");
+    var getNow = new Date();
+    var dayOfTheWeek = getNow.getDay();
+    getNow.setTime(getNow.getTime() - 0 * 24 * 60 * 60 * 1000);
+    document.getElementById("descounttime").innerHTML = getdayNames[(getNow.getDay())] + ", " + getNow.getDate() + " " + getdayMonth[(getNow.getMonth())] + " , " + getNow.getFullYear();
+    </script>    
+
+</body>
+</html>
