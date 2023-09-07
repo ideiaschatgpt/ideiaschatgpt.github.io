@@ -1,0 +1,22 @@
+.elementor-366 .elementor-element.elementor-element-f0f23e4 > .elementor-container{max-width:1200px;}.elementor-366 .elementor-element.elementor-element-5f209b0{text-align:left;}.elementor-366 .elementor-element.elementor-element-1c6c360 .elementor-heading-title{color:#000000;font-family:"Artico", Sans-serif;font-weight:600;}.elementor-366 .elementor-element.elementor-element-f6fb1a9{color:#000000;}.elementor-366 .elementor-element.elementor-element-0e4a09e .elementor-button{height:50px;width:250px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:inline-flex;font-family:"Artico", Sans-serif;font-weight:400;fill:#000000;color:#000000;background-color:#D3FAC1;border-radius:10px 10px 10px 10px;}.elementor-366 .elementor-element.elementor-element-0e4a09e > .elementor-widget-container{margin:0px 0px 0px 0px;padding:5px 5px 5px 5px;}.elementor-366 .elementor-element.elementor-element-5347205 > .elementor-widget-container{margin:0px -30px 0px -30px;}.elementor-366 .elementor-element.elementor-element-5347205{width:var( --container-widget-width, 100.862% );max-width:100.862%;--container-widget-width:100.862%;--container-widget-flex-grow:0;}body.elementor-page-366:not(.elementor-motion-effects-element-type-background), body.elementor-page-366 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F6F5F8;}@media(max-width:767px){.elementor-366 .elementor-element.elementor-element-f0f23e4{padding:10px 10px 10px 10px;}.elementor-366 .elementor-element.elementor-element-5f209b0{text-align:center;}.elementor-366 .elementor-element.elementor-element-1c6c360{text-align:center;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Artico';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../fonts/Artico-Regular-400.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Artico';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../fonts/Artico-Medium-500.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Artico';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../fonts/Artico-Semi-Bold-600.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
