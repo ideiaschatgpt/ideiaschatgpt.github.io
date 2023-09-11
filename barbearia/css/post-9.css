@@ -1,0 +1,10 @@
+.elementor-kit-9{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-bd67791:#06B100;--e-global-color-6485b41:#FFFFFF;--e-global-color-9ed036b:#FFFFFF;--e-global-color-d7d768d:#C30B0B;--e-global-color-d5291d5:#970909;--e-global-color-88cd650:#055B02;--e-global-color-3594cac:#000000;--e-global-color-d44c54d:#208903;--e-global-color-06725e9:#DC8905;--e-global-color-c714abd:#056201;--e-global-color-4d65ed3:#FCF3F3;--e-global-color-55e9ed0:#F8F8F8;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-9 e-page-transition{background-color:#FFBC7D;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */body, html {
+overflow-x: hidden !important;
+}
+
+/Corrigir escrollamento no Mobile/
+@media (max-width: 786px){
+body, html {
+overflow-x: hidden!important;
+}
+}/* End custom CSS */
